@@ -1,0 +1,18 @@
+#footer{
+    display: inline-block;
+    width: 100vw;
+}
+
+#footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#footer ul li{
+    padding: 30px;
+}

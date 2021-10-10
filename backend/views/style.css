@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Goth;
+    src: url(font/HWYGOTH.TTF);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.frame{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 5em;
+    font-family: Goth, sans-serif;
+}
+
+p{
+    font-size: 1.4em;
+    line-height: 2em;
+}
+
+#frame1{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 40vh;
+    background: url("fish1.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+#frame1 div{
+    width: 30em;
+    padding-left: 20vw;
+}
+
+#frame1::after{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 9vw;
+    background-image: url("wave_white_bottom.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
+    position: absolute;
+    bottom: -5px;
+    z-index: 2;
+}
+
+#frame2::before{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 20vw;
+    background-image: url("wave_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    position: absolute;
+    top: -5px;
+    z-index: 2;
+}
+
+#frame2{
+    height: 300vh;
+    width: 100vw;
+    background-color: #D6F7FF;
+    position: relative;
+}
+
+#frame3::before{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 9vw;
+    background-image: url("wave_blue_top.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    position: absolute;
+    top: -5px;
+    z-index: 2;
+}
+
+#frame3{
+    min-height: 100vh;
+    width: 100vw;
+    background: url("jellyfish.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#frame3::after{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 9vw;
+    background-image: url("wave_blue_bottom.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
+    position: absolute;
+    bottom: -5px;
+    z-index: 2;
+}
+
+#frame4{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #D6F7FF;
+    position: relative;
+}
+
+#frame4::after{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 46vw;
+    background-image: url("ground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
+    position: absolute;
+    bottom: -5px;
+    z-index: 2;
+}

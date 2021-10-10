@@ -1,0 +1,53 @@
+#navbar{
+    width: 100vw;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#navbar ul{
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+#navbar li:nth-child(n+2){
+    margin: 0 30px;
+}
+
+#navbar li span{
+    position: relative;
+}
+
+#navbar li span:hover{
+    cursor: pointer;
+}
+
+#navbar li span:hover::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: calc(100% + 10px);
+
+    position: absolute;
+
+    top: 100%;
+    left: -5px;
+
+    background-color: #46C5FC;
+
+    cursor: pointer;
+}
+
+#navbar .logo{
+    height: 50px;
+    display: block;
+}
