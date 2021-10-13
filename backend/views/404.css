@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Goth;
+    src: url(/public/font/HWYGOTH.TTF);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background: url("/public/turtle.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 10em;
+    font-family: Goth, sans-serif;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+div{
+    text-align: center;
+}
+
+.upper_part{
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+}
+
+.lower_part{
+    position: absolute;
+    bottom: 10vh;
+    width: 100vw;
+}

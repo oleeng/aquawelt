@@ -1,6 +1,6 @@
 @font-face {
     font-family: Goth;
-    src: url(font/HWYGOTH.TTF);
+    src: url(/public/font/HWYGOTH.TTF);
 }
 
 *{
@@ -31,7 +31,7 @@ p{
     height: 100vh;
     width: 100vw;
     padding-top: 40vh;
-    background: url("fish1.jpg") no-repeat center center;
+    background: url("/public/fish1.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
     color: white;
@@ -47,7 +47,7 @@ p{
     display: block;
     width: 100vw;
     height: 9vw;
-    background-image: url("wave_white_bottom.svg");
+    background-image: url("/public/wave_white_bottom.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -62,7 +62,7 @@ p{
     display: block;
     width: 100vw;
     height: 20vw;
-    background-image: url("wave_img.png");
+    background-image: url("/public/wave_img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -84,7 +84,7 @@ p{
     display: block;
     width: 100vw;
     height: 9vw;
-    background-image: url("wave_blue_top.svg");
+    background-image: url("/public/wave_blue_top.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -97,7 +97,7 @@ p{
 #frame3{
     min-height: 100vh;
     width: 100vw;
-    background: url("jellyfish.jpg") no-repeat center center;
+    background: url("/public/jellyfish.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -107,7 +107,7 @@ p{
     display: block;
     width: 100vw;
     height: 9vw;
-    background-image: url("wave_blue_bottom.svg");
+    background-image: url("/public/wave_blue_bottom.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -129,7 +129,7 @@ p{
     display: block;
     width: 100vw;
     height: 46vw;
-    background-image: url("ground.png");
+    background-image: url("/public/ground.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
